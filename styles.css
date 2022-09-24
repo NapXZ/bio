@@ -4,7 +4,7 @@ body {
     color: rgba(255, 255, 255, 0.582);
     font-size: 15px;
     letter-spacing: 2px;
-    overflow-y: hidden;/* Hide vertical scrollbar */
+    overflow-y: hidden; /* Hide vertical scrollbar */
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	-webkit-animation: gradient 15s ease infinite;
@@ -22,7 +22,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 25px;
     height: auto;
     max-width: 100px;
 }
@@ -37,19 +37,19 @@ img {
     margin-top: 5px;
     padding: 10px;
     border: 1px solid rgb(255, 255, 255);
-    border-width: 2px;
+    border-width: 1px;
     width: 250px;
-    height: 25px;
+    height: 23px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius:30px;
+    border-radius:20px;
 }
 
 a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    transition: color 1s;
+    transition: color 1ms;
 }
 
 a:hover {
@@ -59,7 +59,7 @@ a:hover {
 }
 
 #grad {
-    background-image: linear-gradient(to bottom right, red, yellow);
+    background-image: linear-gradient(to bottom right, red, rgb(0, 195, 255));
   }
 
   @-webkit-keyframes gradient {
