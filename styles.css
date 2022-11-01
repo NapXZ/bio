@@ -4,12 +4,12 @@ body {
     color: rgba(0, 0, 0, 0.582);
     font-size: 15px;
     letter-spacing: 2px;
-    overflow-y: hidden; /* Hide vertical scrollbar */
+    /*overflow-y: hidden; /* Hide vertical scrollbar */
     background: linear-gradient(-45deg, #dc52e0, #35bd79);
 	background-size: 400% 400%;
 	-webkit-animation: gradient 15s ease infinite;
 	        animation: gradient 15s ease infinite;
-	height: 100vh;
+	height: 100px;
 }
 
 img {
@@ -24,7 +24,7 @@ img {
     margin-right: auto;
     margin-top: 25px;
     height: auto;
-    max-width: 100px;
+    max-width: 90px;
 }
 
 .profile-name {
@@ -36,10 +36,10 @@ img {
     text-align: center;
     margin-top: 5px;
     padding: 10px;
-    border: 1px solid rgb(255, 255, 255);
+    border: 20px solid rgb(255, 255, 255);
     border-width: 1px;
     width: 250px;
-    height: 23px;
+    height: 24px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -48,7 +48,7 @@ img {
 
 a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     transition: color 1ms;
 }
 
