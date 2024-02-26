@@ -1,0 +1,91 @@
+body {
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(127, 182, 255);
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.myport{
+    text-align: center;
+    padding: 0px;
+}
+
+.video1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    height: auto;
+    max-width: 500px;
+}
+
+.video2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    height: auto;
+    max-width: 500px;
+}
+
+.video3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    height: auto;
+    max-width: 500px;
+}
+
+.car{
+    text-align: center;
+    padding: 0px;
+}
+
+.milk{
+    text-align: center;
+    padding: 5px;
+}
+
+.yo{
+    text-align: center;
+    padding: 5px;
+}
+
+a {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    width: fit-content;
+    border: 1.5px solid white;
+    padding: 1%;
+    color: rgb(255, 255, 255);
+
+    gap: 5px;
+    align-items: center;
+    border-radius: 10px;
+    transition-duration: 200ms;
+}
+
+a:hover {
+    background: white;
+    color: #0f172a;
+}
+
+a i {
+    font-size: 1.3em;
+}
+
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
